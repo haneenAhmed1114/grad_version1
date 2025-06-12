@@ -22,4 +22,28 @@ abstract class AppStyles
    fontWeight: FontWeight.w500,
  );
 
+ static const TextStyle titleDrawerItem = TextStyle(
+   fontSize: 20,
+   fontWeight: FontWeight.w600,
+   color: Colors.white,
+ );
+
+ static const percentCardStyle = TextStyle(
+   fontSize: 14,
+   color:AppColors.greenAppColor,
+   fontWeight: FontWeight.w600,
+ );
+
+ static const empDataTitle = TextStyle(
+   color: AppColors.primaryColor,
+   fontSize: 18,
+   fontWeight: FontWeight.w500,
+ );
+
+ static const prefixTextStyle = TextStyle(
+   color: Colors.black,
+   fontSize: 16,
+   fontWeight: FontWeight.w500,
+ );
+
 }

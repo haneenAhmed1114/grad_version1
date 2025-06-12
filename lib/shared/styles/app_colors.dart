@@ -9,4 +9,7 @@ abstract class AppColors
   static  Color filledColor = AppColors.primaryColor.withAlpha(30);
   static const Color dividerBlueColor = Color(0xff0B6EFE);
   static const Color dividerGreyColor= Color(0xffC4C4C4);
+  static const Color hrTextColor=Color(0xffC4C8D7);
+  static const Color greenAppColor = Color(0xff1CC148);
+  static const Color redAppColor = Color(0xffEB4335);
 }

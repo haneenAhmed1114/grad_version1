@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:graduation_project/modules/reset_password/code_verification.dart';
 import 'package:graduation_project/shared/reusabale_components/reusable_components.dart';
 import 'package:graduation_project/shared/styles/app_colors.dart';
-
 import '../../shared/styles/app_styles.dart';
 
 class ForgotPassword extends StatelessWidget {

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:graduation_project/modules/login/login_screen.dart';
 import 'package:graduation_project/shared/reusabale_components/reusable_components.dart';
 
 import '../../shared/styles/app_styles.dart';
@@ -39,7 +40,7 @@ class UpdatePasswordScreen extends StatelessWidget {
                   height: 56,
                 ),
                 defaultButton(onPressed: () {
-
+                 Navigator.of(context).pushNamed(LoginScreen.routeName);
                 }, text: 'Sign in',
                 ),
               ],

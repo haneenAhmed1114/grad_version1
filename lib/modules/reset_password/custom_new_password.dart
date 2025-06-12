@@ -118,9 +118,10 @@ class _CustomNewPasswordState extends State<CustomNewPassword> {
                       controller: passwordController,
                       type: TextInputType.visiblePassword,
                     isPassword: isPasswordAppeared,
-                    suffixIcon: isPasswordAppeared
-                        ? Icons.visibility_off
-                        : Icons.remove_red_eye,
+                    suffixIcon: Icon(
+                      isPasswordAppeared ? Icons.visibility_off : Icons.remove_red_eye,
+                      color: AppColors.eyeColor,
+                    ),
                     suffixPressed: () {
                       setState(() {
                         isPasswordAppeared = !isPasswordAppeared ;
@@ -154,9 +155,10 @@ class _CustomNewPasswordState extends State<CustomNewPassword> {
 
                     },
                     isPassword: isPasswordAppeared,
-                    suffixIcon: isPasswordAppeared
-                        ? Icons.visibility_off
-                        : Icons.remove_red_eye,
+                    suffixIcon: Icon(
+                      isPasswordAppeared ? Icons.visibility_off : Icons.remove_red_eye,
+                      color: AppColors.eyeColor,
+                    ),
                     suffixPressed: () {
                       setState(() {
                         isPasswordAppeared = !isPasswordAppeared ;
